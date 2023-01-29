@@ -1,0 +1,31 @@
+{
+  "name": "binance-orderbook",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@types/ws": "^8.5.4",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "axios": "^1.2.6",
+    "react-query": "^3.39.3",
+    "react-use-websocket": "^4.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0",
+    "ws": "^8.12.0"
+  }
+}
